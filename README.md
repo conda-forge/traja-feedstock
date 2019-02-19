@@ -11,7 +11,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Traja is a trajectory analysis and visualization tool
+Summary: Traja is a Python library for trajectory analysis and visualization
 
 
 
