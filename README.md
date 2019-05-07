@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About traja
 ===========
 
@@ -18,8 +14,17 @@ Summary: Traja is a Python library for trajectory analysis and visualization
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/traja-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/traja-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6165&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/traja-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
