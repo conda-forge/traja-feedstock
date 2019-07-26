@@ -1,5 +1,5 @@
 {% set name = "traja" %}
-{% set version = "0.1.2.post2" %}
+{% set version = "0.1.2.post4" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/justinshenk/traja/archive/v{{ version }}.tar.gz
-  sha256: 22ebe58e6772894fa5f5f06c07e37c2d431e2e5c0942cf520cde05bb6df6612d
+  sha256: 4286fa5aea238e7b37d4a1449b91343e5cb583305044e8752576bb4691e860ae
 
 build:
   number: 0
