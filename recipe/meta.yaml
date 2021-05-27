@@ -29,7 +29,6 @@ requirements:
     - pillow
     - fastdtw
     - ipython
-      - pip  
     - scikit-learn
     - networkx
     - pytorch
