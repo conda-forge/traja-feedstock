@@ -1,5 +1,5 @@
 {% set name = "traja" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/traja-team/traja/archive/v{{ version }}.tar.gz
-  sha256: 8c89ef38155fc75ef74191625ce9460ebcbef9a84e51b53d6eb038b65a3da4ff
+  sha256: 1ea72f5813b26fd92e95f747a13ffd82f652d70f29487181d223f9afc1e2fc12
 
 build:
-  number: 1
+  number: 0
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
